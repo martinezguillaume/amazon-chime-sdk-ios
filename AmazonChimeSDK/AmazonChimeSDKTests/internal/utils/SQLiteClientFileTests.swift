@@ -8,7 +8,7 @@
 
 @testable import AmazonChimeSDK
 import Foundation
-import SQLite3
+import sqlite3
 import XCTest
 
 class SQLiteClientFileTests: SQLiteClientTests {

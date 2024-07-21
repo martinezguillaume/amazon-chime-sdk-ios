@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "AmazonChimeSDK.xcframework"
   s.swift_version    = '5.0'
   s.dependency 'AmazonChimeSDKMedia', '0.21.0'
+  s.dependency 'sqlite3', '~> 3.45.3+1'
 end

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SQLite3
+import sqlite3
 
 class SQLiteClient: DatabaseClient {
     /// Content pointer is constant and will never change
