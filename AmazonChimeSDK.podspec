@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/aws/amazon-chime-sdk-ios'
   s.license          = 'Apache License, Version 2.0'
   s.author           = { 'Amazon Web Services' => 'amazonwebservices' }
-  s.source           = { :http => "https://amazon-chime-sdk-ios.s3.amazonaws.com/sdk/0.25.2/AmazonChimeSDK-0.25.2.tar.gz" }
+  s.source           = { :git => "https://github.com/martinezguillaume/amazon-chime-sdk-ios", :branch => "master" }
   s.ios.deployment_target = '12.0'
   s.vendored_frameworks = "AmazonChimeSDK.xcframework"
   s.swift_version    = '5.0'
